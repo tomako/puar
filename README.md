@@ -35,3 +35,15 @@ $ python puar.py heroes.csv "INSERT INTO heroes (id, name) VALUES (%(id)s, '%(na
 INSERT INTO heroes (id, name) VALUES (1, 'Son Goku');
 INSERT INTO heroes (id, name) VALUES (2, 'Muten Roshi');
 ```
+
+## Wishlist 
+* prefix/postfix
+* CSV - parse files with BOM
+* Support for Jinja and other templates
+* unify header names
+* available fields --info
+* add filename to the template vars
+* total coverage
+* deploy on PyPi
+* deploy as docker
+* Excel - use value of cell instead of the function in it 
